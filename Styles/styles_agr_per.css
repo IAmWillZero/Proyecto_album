@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #141414; /* Fondo oscuro similar a Netflix */
+    color: #FFFFFF; /* Texto blanco */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #1f1f1f; /* Fondo gris oscuro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h2 {
+    color: #E50914; /* Rojo Netflix */
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #FFFFFF; /* Texto blanco para etiquetas */
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #333333; /* Borde gris oscuro */
+    background-color: #333333; /* Fondo gris oscuro */
+    color: #FFFFFF; /* Texto blanco */
+}
+
+input[type="submit"] {
+    background-color: #E50914; /* Rojo Netflix */
+    color: #FFFFFF; /* Texto blanco */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+input[type="submit"]:hover {
+    background-color: #B20710; /* Rojo Netflix más oscuro */
+}
+
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.personaje {
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #1f1f1f; /* Fondo gris oscuro */
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    text-align: center;
+}
+
+.personaje img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.personaje h3 {
+    color: #E50914; /* Rojo Netflix */
+    margin-top: 8px;
+}
+
+.personaje p {
+    color: #FFFFFF; /* Texto blanco */
+    margin-top: 8px;
+}
+
+/* Estilos adicionales para enlaces y otros elementos según sea necesario */
+a {
+    color: #E50914; /* Rojo Netflix para enlaces */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
